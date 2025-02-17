@@ -1,0 +1,89 @@
+/* Surface Colors */
+.input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #0050FF;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.01px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Hover State */
+.input:hover {
+    border-color: rgba(26, 26, 26, 0.06);
+}
+
+/* Focus State */
+.input:focus {
+    border-color: #1A1A1ACC;
+    outline: none;
+    box-shadow: 0 0 0 2px #1A1A1ACC;
+}
+
+/* Error State */
+.input.error {
+    border-color: #DC2828;
+    background-color: #FFDCDC;
+}
+
+/* Warning State */
+.input.warning {
+    border-color: #A56315;
+    background-color: #FAF1B6;
+}
+
+/* Label Styles */
+.label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #2C2C31;
+}
+
+.label-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 0 0 10px 0;
+}
+
+.label-s {
+    font-size: 13px;
+    font-weight: 350;
+    line-height: 22px;
+    color: #8C8C9A;
+}
+
+.helper-text {
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 17px;
+    color: #8C8C9A;
+}
+
+.helper-text.error {
+    color: #DC2828;
+}
+
+.helper-text.warning {
+    color: #A56315;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+
+}
+
+.max-w-md {
+    width: 400px;
+    max-width: 400px;
+}

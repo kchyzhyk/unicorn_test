@@ -1,10 +1,11 @@
 import './App.css';
-import InputComponent from './components/InputComponents';
+import Input from './components/Input';
+
 
 function App() {
   return (
     <div className="App">
-      <InputComponent />
+      <Input label="Input" placeholder="Placeholder" required={false} error={false} warning={false} helperText="" />
     </div>
   );
 }
